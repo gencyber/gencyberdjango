@@ -24,6 +24,6 @@ urlpatterns = [
     #API
     url(r'^api/', include('api.urls')),
 
-    #ember
+    #home
     url(r'^', views.home),
 ]
